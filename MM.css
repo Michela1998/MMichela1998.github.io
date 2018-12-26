@@ -3,18 +3,32 @@ background-color: rgb(22, 0, 0);
 align-content: center;
 padding: 10rem;
 }
-
+.links{
+   display: grid;
+   grid: 20%;
+}
 p{
 color: rgb(197, 102, 102);
 }
-
 h1{
 color: rgb(255, 203, 203);
-font-size: 10rem;
+font-size: 12rem;
+}
+.press{
+box-sizing: border-box 2rem;
+padding: 1rem 20rem;
+background-color: rgb(22, 0, 0);
+color: rgb(255, 203, 203);
+line-height: 2.5;
+ padding: 0 20px; 
+font-size: 1rem;
+text-align: center;
+}
+.press:hover {
+    color: rgb(22, 22, 22);
 }
 
-button{
-background-color: rgb(22, 0, 0);
-outline: rgb(22, 0, 0);
-font-family:import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+.press:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
