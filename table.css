@@ -12,6 +12,7 @@ a{
         line-height: 2.5;   
         font-size: 0.5rem;
         text-align: center;
+        align-content: center;
         text-decoration: none;
        
 }
@@ -30,4 +31,8 @@ table{
 thead{ 
     color: rgb(255, 203, 203);
     font-size: 1.5rem;
+}
+.mm{
+    color: rgb(59, 39, 39);
+
 }
